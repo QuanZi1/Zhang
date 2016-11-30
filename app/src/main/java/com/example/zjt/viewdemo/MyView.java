@@ -6,6 +6,7 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.RectF;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 import com.example.zjt.viewdemo.bean.PieData;
 
@@ -46,7 +47,7 @@ public class MyView extends View {
         //画笔
         paint = new Paint();
         paint.setColor(Color.BLACK);
-
+        Log.d("---------->","");
     }
 
     //测量
