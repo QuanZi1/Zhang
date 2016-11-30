@@ -47,7 +47,7 @@ public class MyView extends View {
         //画笔
         paint = new Paint();
         paint.setColor(Color.BLACK);
-        Log.d("---------->","");
+        
     }
 
     //测量
